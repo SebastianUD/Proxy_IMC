@@ -11,6 +11,6 @@ public class PruebaCalculadoraIMC {
 
         // Calcular el IMC y mostrar el resultado
         String resultado = calculadora.calcularIMC(peso, altura);
-        Salida.imprimir("Su IMC es " + resultado);
+        Salida.imprimir("Su IMC es: " + resultado);
     }
 }
